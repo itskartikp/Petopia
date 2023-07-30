@@ -1,0 +1,44 @@
+.crouch {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 0px !important;
+  height: 0px !important;
+}
+
+.footLink {
+  text-decoration: none !important;
+  color: #000000 !important
+}
+
+.footLink:hover {
+  color: #EEB462 !important;
+  cursor: pointer;
+}
+
+@media (max-width: 1240px) {
+  .hideCol {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1240px) {
+  .sizeBrk {
+    justify-content: space-evenly !important;
+    width: 100vw !important;
+  }
+}
+
+@media (max-width: 1240px) {
+  .footBox {
+    width: 120% !important;
+  }
+}
+
+@media (max-width: 1240px) {
+  .footLogo {
+    margin-left: -36px !important;
+    margin-right: 0 !important;
+    justify-content: flex-start !important;
+  }
+}
